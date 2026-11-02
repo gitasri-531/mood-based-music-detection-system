@@ -1,0 +1,13 @@
+node_modules/
+dist/
+__pycache__/
+*.db
+.env
+backend/data/fer2013/
+backend/models/*.keras
+backend/models/*.json
+backend/.secret_key
+backend/.secret_key
+*.db
+
+backend/venv/

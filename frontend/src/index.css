@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:radial-gradient(ellipse at 15% 0%,#34166f 0,#0b0712 45%,#050408 100%);background-attachment:fixed;color:#eee;min-height:100vh;font-family:ui-sans-serif,system-ui,"Segoe UI",Roboto,sans-serif}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.rise{animation:rise .5s ease both}
+@media (prefers-reduced-motion:reduce){.rise{animation:none}}
